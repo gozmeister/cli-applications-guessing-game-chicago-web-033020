@@ -4,7 +4,8 @@ end
 
 def person_number
   puts "Guess a number between 1 and 6."
-  gets.chomp.to_i
+  input = gets.chomp.to_i
+  input
 end
 
 def run_guessing_game
@@ -15,8 +16,6 @@ def run_guessing_game
   elsif person_guess == computer_guess
     puts "You guessed the correct number!"
   else
-    p computer_guess
-    p person_guess
     puts "Sorry! The computer guessed #{computer_guess}."
   end
 end
