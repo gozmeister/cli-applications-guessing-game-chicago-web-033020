@@ -4,7 +4,7 @@ end
 
 def person_number
   puts "Guess a number between 1 and 6."
-  input = gets.chomp.to_i
+  input = gets.chomp
   input
 end
 
