@@ -1,5 +1,5 @@
 def computer_number
-  rand(1..6)
+  rand(7) + 1
 end
 
 def person_number
