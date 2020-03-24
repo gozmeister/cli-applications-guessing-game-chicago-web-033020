@@ -7,7 +7,7 @@ def person_number
   gets.chomp.to_i
 end
 
-def run_game
+def run_guessing_game
   computer_guess = computer_number
   person_guess = person_number
   if person_guess == "exit"
